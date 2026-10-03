@@ -38,4 +38,7 @@ clrscr;
   writeln('=== HASIL BELANJA ===');
   writeln('Total Sebelum Diskon : Rp', total:0:2);
   writeln('Besar Diskon         : Rp', diskon:0:2);
-  writeln('Total Bayar Akhir    : Rp', to
+  writeln('Total Bayar Akhir    : Rp', totalBayar:0:2);
+
+  readkey;
+end.
